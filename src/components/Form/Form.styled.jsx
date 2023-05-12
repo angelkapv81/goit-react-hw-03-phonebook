@@ -30,12 +30,12 @@ export const ContactForm = styled.input`
   background-color: #f1f1f1;
   border-radius: 5px;
   width: 100%;
-&:focus, 
- :hover {
-outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  background-color: rgb(173, 255, 173); */
-}
+  &:focus,
+  :hover {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(173, 255, 173);
+  }
 `;
 
 export const ContactAdd = styled.button`
