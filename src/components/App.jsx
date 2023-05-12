@@ -38,7 +38,7 @@ class App extends React.Component {
         el => el.name.toLowerCase() === name.toLowerCase()
       )
     ) {
-      swal(`Contact ${name} already in list!`);
+      swal(`Contact ${name} already in phonebook!`);
       return;
     }
     const contact = {
