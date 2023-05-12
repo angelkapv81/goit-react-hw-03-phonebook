@@ -20,10 +20,11 @@ export const ContactItem = styled.li`
   background-color: #f2f2f2;
   padding: 10px;
   display: flex;
+  &:nth-child(2n) {
+    background-color: #ffffff;
+  }
 `;
-// .ContactItem:nth-child(2n) {
-//   background-color: #ffffff;
-// }
+
 export const ContactButton = styled.button`
   background-color: #ff0000;
   color: #ffffff;
