@@ -5,7 +5,7 @@ import { Search } from '@mui/icons-material';
 
 import PropTypes from 'prop-types';
 import {
-  SearchBar,
+  Searchbar,
   SerchForm,
   Input,
   SearchBtn,
@@ -30,7 +30,7 @@ export default class Searhbar extends Component {
   };
   render() {
     return (
-      <SearchBar>
+      <Searchbar>
         <SerchForm onSubmit={this.handleSubmit}>
           <Input
             type="text"
@@ -47,7 +47,7 @@ export default class Searhbar extends Component {
             </SerchFormBtnLabel>
           </SearchBtn>
         </SerchForm>
-      </SearchBar>
+      </Searchbar>
     );
   }
 }
