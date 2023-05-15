@@ -16,6 +16,7 @@ export default function ImageGallery({ images, selectedImage }) {
   );
 }
 
+// PropTypes
 ImageGallery.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
