@@ -2,7 +2,7 @@
   "name": "react-homework-3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://angelkapv81.github.io/goit-react-hw-03-phonebook/",
+  "homepage": "https://angelkapv81.github.io/goit-react-hw-03-image-finder/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -12,6 +12,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
+    "gh-pages": "^5.0.0",
     "modern-normalize": "^1.1.0",
     "prop-type": "^0.0.1",
     "react": "^18.1.0",
